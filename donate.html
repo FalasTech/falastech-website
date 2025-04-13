@@ -28,6 +28,10 @@
       font-size: 2rem;
       margin-bottom: 0.5rem;
     }
+    h2 {
+      margin-top: 2rem;
+      color: #111;
+    }
     p {
       font-size: 1rem;
       color: #444;
@@ -93,32 +97,61 @@
       vertical-align: middle;
       margin-right: 0.4rem;
     }
- </style>
+    #copyFeedback {
+      display: none;
+      color: green;
+      margin-top: 0.5rem;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <h1>
-        <img src="images/Flag_of_Palestine.svg" class="flag-icon" alt="Palestine Flag" />
-        Support <span class="falastech">FalasTech</span>
-      </h1>            
+      <img src="images/Flag_of_Palestine.svg" class="flag-icon" alt="Palestine Flag" />
+      Support <span class="falastech">FalasTech</span>
+    </h1>            
     <p>Your donations help us build open-source tech tools for Palestine, raise awareness, and support the digital resistance.</p>
+
+    <!-- USDT Section -->
     <h2>Donate with USDT (TRC20)</h2>
-    <div class="address" id="walletAddress">TJyW2M6exoeHpX8eyZiJA8BQu645873cD7</div>
-    <button class="copy-button" onclick="copyAddress()">Copy Address</button>
+    <div class="address" id="usdtAddress">TJyW2M6exoeHpX8eyZiJA8BQu645873cD7</div>
+    <button class="copy-button" onclick="copyAddress('usdtAddress')">Copy Address</button>
     <div class="qr">
-      <img src="images/donation_qr.jpg" class="resize" alt="QR Code to donate USDT (TRC20) to FalasTech" />
+      <img src="images/usdt_qr.jpg" class="resize" alt="QR Code to donate USDT (TRC20) to FalasTech" />
     </div>
+
+    <!-- Bitcoin Section -->
+    <h2>Donate with Bitcoin (BTC)</h2>
+    <div class="address" id="btcAddress">bc1qclhmcjhftch5nz8arhwrxkjev3l85kjw9f4t96</div>
+    <button class="copy-button" onclick="copyAddress('btcAddress')">Copy Address</button>
+    <div class="qr">
+      <img src="images/btc_qr.jpg" class="resize" alt="QR Code to donate Bitcoin to FalasTech" />
+    </div>
+
+    <!-- Ethereum Section -->
+    <h2>Donate with Ethereum (ETH)</h2>
+    <div class="address" id="ethAddress">0x144bf20D4555f3A4482E472dC48d8aBE08Ec0f0E</div>
+    <button class="copy-button" onclick="copyAddress('ethAddress')">Copy Address</button>
+    <div class="qr">
+      <img src="images/eth_qr.jpg" class="resize" alt="QR Code to donate Ethereum to FalasTech" />
+    </div>
+
+    <!-- Copy Feedback -->
+    <div id="copyFeedback">Copied!</div>
+
     <footer>
-        <img src="images/Flag_of_Palestine.svg" class="footer-flag" alt="Palestine Flag" />
-        100% of donations go toward tech advocacy, infrastructure, and outreach efforts.
-      </footer>      
+      <img src="images/Flag_of_Palestine.svg" class="footer-flag" alt="Palestine Flag" />
+      100% of donations go toward tech advocacy, infrastructure, and outreach efforts.
+    </footer>      
   </div>
 
   <script>
-    function copyAddress() {
-      const address = document.getElementById("walletAddress").textContent;
+    function copyAddress(id) {
+      const address = document.getElementById(id).textContent;
       navigator.clipboard.writeText(address).then(() => {
-        alert("Wallet address copied to clipboard!");
+        const feedback = document.getElementById("copyFeedback");
+        feedback.style.display = "block";
+        setTimeout(() => feedback.style.display = "none", 2000);
       }).catch(err => {
         alert("Failed to copy address: " + err);
       });
