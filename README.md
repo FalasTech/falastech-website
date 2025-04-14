@@ -3,7 +3,14 @@
 
 # 🌐 falastech.pages.dev
 
-This is the landing website for [**FalasTech**](https://falastech.pages.dev) — an open-source, tech-for-justice collective in support of **Palestinian liberation**.
+This is the official static website for **FalasTech** — an open-source, tech-for-justice collective in support of **Palestinian liberation**
+
+---
+
+## 🔗 Live
+
+- 🌍 **Live Website**: [falastech.pages.dev](https://falastech.pages.dev)  
+- 🏷️ **Domain**: `falastech.org` *(coming soon)*
 
 ---
 
