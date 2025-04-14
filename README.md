@@ -1,4 +1,5 @@
 [![Code for Liberation](https://img.shields.io/badge/🇵🇸%20Code_for_Liberation-falastech.org-%23E60023.svg)](https://falastech.pages.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)]([https://creativecommons.org/licenses/by/4.0/](https://github.com/FalasTech/falastech-website?tab=MIT-1-ov-file))
 
 # 🌐 falastech.pages.dev
 
