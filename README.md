@@ -1,4 +1,4 @@
-[![Code for Liberation](https://img.shields.io/badge/🇵🇸%20Code_for_Liberation-falastech.org-%23E60023.svg)](https://falastech.pages.dev)
+[![Code for Liberation](https://img.shields.io/badge/🇵🇸%20Code_for_Liberation-falastech.org-%23E60023.svg)](https://falastech.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://github.com/FalasTech/falastech-website/blob/main/LICENSE)
 
 # 🌐 falastech.pages.dev
@@ -9,8 +9,8 @@ This is the official static website for **FalasTech** — an open-source, tech-f
 
 ## 🔗 Live
 
-- 🌍 **Live Website**: [falastech.pages.dev](https://falastech.pages.dev)  
-- 🏷️ **Domain**: `falastech.org` *(coming soon)*
+- 🌍 **Live Website**: [falastech.org](https://falastech.org)  
+- 🏷️ **Domain**: `falastech.org` 
 
 ---
 
@@ -18,7 +18,6 @@ This is the official static website for **FalasTech** — an open-source, tech-f
 
 - 🧱 HTML & CSS (no frameworks)  
 - 💨 TailwindCSS (CDN version)  
-- ☁️ Hosted on [Cloudflare Pages](https://pages.cloudflare.com)
 
 ---
 
