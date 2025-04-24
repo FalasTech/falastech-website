@@ -3,37 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>FalasTech</title>
+    <title>Thanks</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Primary Meta Tags -->
-    <meta name="title" content="FalasTech - Code for Liberation">
-    <meta name="description" content="We are a collective of developers, designers, and digital activists building open-source tools for Palestinian advocacy and liberation.">
-    <meta name="keywords" content="FalasTech, Palestine, tech for justice, open-source, digital activism, Free Palestine">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="FalasTech">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://falastech.org/">
-    <meta property="og:title" content="FalasTech - Code for Liberation">
-    <meta property="og:description" content="Open-source tools for Palestinian advocacy and liberation.">
-    <meta property="og:image" content="https://falastech.org/assets/preview.jpg">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://falastech.org/">
-    <meta name="twitter:title" content="FalasTech - Code for Liberation">
-    <meta name="twitter:description" content="Join our collective of developers, designers, and digital activists working for Palestinian justice.">
-    <meta name="twitter:image" content="https://falastech.org/assets/preview.jpg">
-
-    <!-- Favicon -->
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    
     <!-- utility css file -->
     <link rel="stylesheet" href="css/utility.css">
     <!-- style css file -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel = "stylesheet" href = "css/style.css">
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- google fonts -->
@@ -58,46 +33,57 @@
 
         <div class="navbar-collapse">
           <ul class="navbar-nav">
-            <li class="nav-item nav-active"><a href="index.html" class="nav-link">home</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
             <li class="nav-item"><a href="about.html" class="nav-link">about</a></li>
             <li class="nav-item"><a href="projects.html" class="nav-link">projects</a></li>
             <li class="nav-item"><a href="tools.html" class="nav-link">tools</a></li>
-            <li class="nav-item"><a href="join.html" class="nav-link">get involved</a></li>
+            <li class="nav-item nav-active"><a href="join.html" class="nav-link">get involved</a></li>
             <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- end of navbar section -->
-
-    <!-- home section -->
-    <section class="home container">
-      <div class="row">
-        <div class="row-left">
-          <h3>Welcome to</h3>
-          <h1><span>FalasTech</span></h1>
-          <h2>Code for Liberation</h2>
-          <div class="home-pg-btn">
-            <button type="button" class="btn" onclick="window.location.href='join.html'">
-              join us
-            </button>
-            <button type="button" class="btn" onclick="window.location.href='projects.html'">
-              our work
-            </button>            
+     
+    <!-- get-involved page -->
+    <section class="get-involved container">
+        <div class="title">
+          <h2>Join Us</h2>
+          <div>
+            <h2>Get Involved</h2>
           </div>
         </div>
-
-        <div class="row-right">
-          <div class="img-border">
-            <div class="img-container">
-              <img src="assets/logo.png" alt="FalasTech Visual">
+      
+        <p class="text">
+          Be part of the movement. Join FalasTech and help build digital tools for justice, freedom, and community-powered change.
+        </p>
+    
+        <section class="volunteer-section" style="padding: 3rem 1rem; background: linear-gradient(to right, #f6f8f9, #fdf6f7);">
+         <div class="container" style="max-width: 1200px; margin: auto;">
+          <div class="volunteer-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; text-align: center;">
+      
+            <!-- Discord Card -->
+            <div>
+              <h3 style="font-weight: bold;">Looking for a pro-Palestine community?</h3>
+              <a href="https://discord.gg/falastech" class="btn" style="background-color: #0077cc; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; display: inline-block; margin-top: 1rem;">Join our Discord</a>
             </div>
+      
+            <!-- Submit Project Card -->
+            <div>
+              <h3 style="font-weight: bold;">Do you have a pro-Palestine project?</h3>
+              <a href="https://falastech.org/launchpad" class="btn" style="background-color: #22c55e; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; display: inline-block; margin-top: 1rem;">Apply to join the Launchpad</a>
+              <div style="margin-top: 0.5rem;">
+                <a href="launchpad.html" style="color: #22c55e; text-decoration: none;">Learn more about the Launchpad</a>
+              </div>
+            </div>
+      
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- end of home section -->
-
+         </div>
+        </section>
+    </section>         
+    <!-- end of get-involved page -->
+    
+    
     <!-- footer -->
     <footer class="footer container">
       <div class="row">
@@ -149,6 +135,7 @@
       </div>
     </footer>
     <!-- end of footer -->
+
 
     <!-- custom js file -->
     <script src="js/script.js"></script>
