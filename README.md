@@ -3,13 +3,13 @@
 
 # 🌐 falastech.org
 
-This is the official website for **FalasTech** — an open-source, tech-for-justice collective in support of **Palestinian liberation**
+**FalasTech** is an open-source, tech-for-justice collective building digital tools in solidarity with **Palestinian liberation**.
 
 ---
 
 ## 🔗 Live
 
-- 🌍 **Live Website**: [falastech.org](https://falastech.org)
+- 🌍 **Website**: [https://falastech.org](https://falastech.org)
 - 🏷️ **Domain**: `falastech.org`
 
 ---
@@ -17,15 +17,18 @@ This is the official website for **FalasTech** — an open-source, tech-for-just
 ## 🛠 Built With
 
 - 🧱 HTML & CSS
-- 💨 TailwindCSS
-- Javascript
+- 💨 Tailwind CSS
+- ⚙️ JavaScript
 
 ---
 
 ## 🤝 Want to Contribute?
 
-- Fork this repo
-- Open a pull request
-- Or connect with us through our [social links](https://github.com/FalasTech/.github/blob/main/social.md)
+We welcome collaborators, contributors, and co-dreamers.
+
+- 🍴 Fork this repo
+- 🔧 Make your changes
+- 📬 Open a pull request
+- 🌐 Or connect with us through our [social links](https://github.com/FalasTech/.github/blob/main/social.md)
 
 > ✊ Together, we **code for liberation**.
