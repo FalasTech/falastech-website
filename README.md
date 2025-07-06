@@ -3,28 +3,29 @@
 
 # 🌐 falastech.org
 
-This is the official static website for **FalasTech** — an open-source, tech-for-justice collective in support of **Palestinian liberation**
+This is the official website for **FalasTech** — an open-source, tech-for-justice collective in support of **Palestinian liberation**
 
 ---
 
 ## 🔗 Live
 
-- 🌍 **Live Website**: [falastech.org](https://falastech.org)  
-- 🏷️ **Domain**: `falastech.org` 
+- 🌍 **Live Website**: [falastech.org](https://falastech.org)
+- 🏷️ **Domain**: `falastech.org`
 
 ---
 
 ## 🛠 Built With
 
-- 🧱 HTML & CSS (no frameworks)  
-- 💨 TailwindCSS (CDN version)  
+- 🧱 HTML & CSS
+- 💨 TailwindCSS
+- Javascript
 
 ---
 
 ## 🤝 Want to Contribute?
 
-- Fork this repo  
-- Open a pull request  
+- Fork this repo
+- Open a pull request
 - Or connect with us through our [social links](https://github.com/FalasTech/.github/blob/main/social.md)
 
 > ✊ Together, we **code for liberation**.

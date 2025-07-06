@@ -1,0 +1,147 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1a1a1a;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+  border-top: 8px solid;
+  border-image: linear-gradient(to right, #e60000, #000000, #007a3d) 1;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  color: #111;
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.address {
+  font-size: 1rem;
+  background: #eee;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  word-break: break-word;
+}
+
+.copy-button {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to right, #e60000, #000, #007a3d);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: opacity 0.3s ease;
+}
+
+.copy-button:hover {
+  opacity: 0.9;
+}
+
+.copy-button i {
+  margin-right: 0.4rem;
+}
+
+.copy-feedback {
+  display: none;
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.qr {
+  margin-top: 1rem;
+}
+
+img.resize {
+  width: 200px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.falastech {
+  background: linear-gradient(to right, #e60000 33%, #000 33%, #000 66%, #007a3d 66%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.flag-icon {
+  width: 24px;
+  height: auto;
+  vertical-align: middle;
+  animation: waveFlag 2s infinite ease-in-out;
+  transform-origin: bottom left;
+}
+
+.footer-flag {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+#copyFeedback {
+  display: none;
+  color: green;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+@keyframes waveFlag {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(6deg); }
+  50% { transform: rotate(-6deg); }
+  75% { transform: rotate(4deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  img.resize {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}

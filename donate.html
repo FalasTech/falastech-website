@@ -3,159 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./assets/css/donate.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png" />
   <title>Donate to FalasTech</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #1a1a1a;
-      color: #222;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 700px;
-      margin: 3rem auto;
-      padding: 2rem;
-      background: #fff;
-      border-radius: 14px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      text-align: center;
-      border-top: 8px solid;
-      border-image: linear-gradient(to right, #e60000, #000000, #007a3d) 1;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    h2 {
-      margin-top: 2rem;
-      color: #111;
-    }
-    p {
-      font-size: 1rem;
-      color: #444;
-    }
-    .address {
-      font-size: 1rem;
-      background: #eee;
-      padding: 1rem;
-      border-radius: 8px;
-      margin: 1rem 0;
-      word-break: break-word;
-    }
-    .copy-button {
-      padding: 0.5rem 1rem;
-      background: linear-gradient(to right, #e60000, #000, #007a3d);
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 0.95rem;
-      transition: background 0.3s ease;
-    }
-    .copy-button:hover {
-      opacity: 0.9;
-    }
-    .qr {
-      margin-top: 1rem;
-    }
-    footer {
-      margin-top: 2rem;
-      font-size: 0.9rem;
-      color: #777;
-    }
-    img.resize {
-      width: 200px;
-      height: 200px;
-    }
-    .falastech {
-      background: linear-gradient(to right, #e60000 33%, #000 33%, #000 66%, #007a3d 66%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      display: inline-block;
-      font-weight: 700;
-    }
-    .flag-icon {
-      width: 24px;
-      height: auto;
-      vertical-align: middle;
-      margin-right: 0.5rem;
-      animation: waveFlag 2s infinite ease-in-out;
-      transform-origin: bottom left;
-    }
-    @keyframes waveFlag {
-      0% { transform: rotate(0deg); }
-      25% { transform: rotate(6deg); }
-      50% { transform: rotate(-6deg); }
-      75% { transform: rotate(4deg); }
-      100% { transform: rotate(0deg); }
-    }
-    .footer-flag {
-      width: 20px;
-      height: auto;
-      vertical-align: middle;
-      margin-right: 0.4rem;
-    }
-    #copyFeedback {
-      display: none;
-      color: green;
-      margin-top: 0.5rem;
-    }
-  </style>
 </head>
 <body>
   <div class="container">
     <h1>
-      <img src="assets/Flag_of_Palestine.svg" class="flag-icon" alt="Palestine Flag" />
+      <img src="assets/donation-page/Flag_of_Palestine.svg" class="flag-icon" alt="Palestine Flag" />
       Support <span class="falastech">FalasTech</span>
     </h1>            
+
     <p>Your donations help us build open-source tech tools for Palestine, raise awareness, and support the digital resistance.</p>
 
     <!-- USDT Section -->
     <h2>Donate with USDT (TRC20)</h2>
     <div class="address" id="usdtAddress">TJyW2M6exoeHpX8eyZiJA8BQu645873cD7</div>
-    <button class="copy-button" onclick="copyAddress('usdtAddress')">Copy Address</button>
+    <button class="copy-button" onclick="copyAddress('usdtAddress', 'usdtFeedback')"><i class="fa-solid fa-copy"></i>Copy Address</button>
+    <div class="copy-feedback" id="usdtFeedback">Copied!</div>
     <div class="qr">
-      <img src="assets/usdt_qr.jpg" class="resize" alt="QR Code to donate USDT (TRC20) to FalasTech" />
+      <img src="assets/donation-page/usdt_qr.jpg" class="resize" alt="USDT QR Code" />
     </div>
 
     <!-- Bitcoin Section -->
     <h2>Donate with Bitcoin (BTC)</h2>
     <div class="address" id="btcAddress">bc1qclhmcjhftch5nz8arhwrxkjev3l85kjw9f4t96</div>
-    <button class="copy-button" onclick="copyAddress('btcAddress')">Copy Address</button>
+    <button class="copy-button" onclick="copyAddress('btcAddress', 'btcFeedback')"><i class="fa-solid fa-copy"></i>Copy Address</button>
+    <div class="copy-feedback" id="btcFeedback">Copied!</div>
     <div class="qr">
-      <img src="assets/btc_qr.jpg" class="resize" alt="QR Code to donate Bitcoin to FalasTech" />
+      <img src="assets/donation-page/btc_qr.jpg" class="resize" alt="Bitcoin QR Code" />
     </div>
 
     <!-- Ethereum Section -->
     <h2>Donate with Ethereum (ETH)</h2>
     <div class="address" id="ethAddress">0x144bf20D4555f3A4482E472dC48d8aBE08Ec0f0E</div>
-    <button class="copy-button" onclick="copyAddress('ethAddress')">Copy Address</button>
+    <button class="copy-button" onclick="copyAddress('ethAddress')"><i class="fa-solid fa-copy"></i> Copy Address</button>
+    <div class="copy-feedback" id="ethFeedback">Copied!</div>
     <div class="qr">
-      <img src="assets/eth_qr.jpg" class="resize" alt="QR Code to donate Ethereum to FalasTech" />
+      <img src="assets/donation-page/eth_qr.jpg" class="resize" alt="Ethereum QR Code" />
     </div>
 
-    <!-- Copy Feedback -->
-    <div id="copyFeedback">Copied!</div>
-
     <footer>
-      <img src="images/Flag_of_Palestine.svg" class="footer-flag" alt="Palestine Flag" />
+      <img src="assets/donation-page/Flag_of_Palestine.svg" class="footer-flag" alt="Palestine Flag" />
       100% of donations go toward tech advocacy, infrastructure, and outreach efforts.
     </footer>      
   </div>
-
-  <script>
-    function copyAddress(id) {
-      const address = document.getElementById(id).textContent;
-      navigator.clipboard.writeText(address).then(() => {
-        const feedback = document.getElementById("copyFeedback");
-        feedback.style.display = "block";
-        setTimeout(() => feedback.style.display = "none", 2000);
-      }).catch(err => {
-        alert("Failed to copy address: " + err);
-      });
-    }
-  </script>
-</body>
+  <script src="./assets/js/donate.js"></script>
+  </body>
 </html>
