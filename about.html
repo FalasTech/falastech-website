@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | FalasTech</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="logo">FALASTECH</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="section">
+                <div class="section-header">
+                    <span class="section-line"></span>
+                    <h2>ABOUT <span>/ THE INITIATIVE</span></h2>
+                </div>
+                <p style="font-size: 1.2rem; color: var(--muted); max-width: 700px; margin-bottom: 2rem;">
+                    FalasTech is an independent initiative focused on building simple, privacy-respecting web tools for public use and digital advocacy.
+                    The project is independently maintained and aims to create tools that are accessible, transparent, and easy to use.
+                    FalasTech may expand to include collaborators in the future.
+                </p>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="section-header">
+                    <span class="section-line"></span>
+                    <h2>CONNECT <span>/ GET IN TOUCH</span></h2>
+                </div>
+
+                <div class="contact-list">
+                    <div class="contact-item" onclick="location.href='mailto:info@falastech.org';" style="cursor:pointer;">
+                        <div class="contact-icon gmail"><i data-lucide="mail"></i></div>
+                        <div class="contact-content">
+                            <h4>Email</h4>
+                            <p>info@falastech.org</p>
+                            <span>Send message</span>
+                        </div>
+                        <div class="contact-arrow"><i data-lucide="chevron-right"></i></div>
+                    </div>
+                    
+                    <div class="contact-item" onclick="window.open('https://www.instagram.com/falastech','_blank');" style="cursor:pointer;">
+                        <div class="contact-icon instagram"><i data-lucide="instagram"></i></div>
+                        <div class="contact-content">
+                            <h4>Instagram</h4>
+                            <p>@falastech</p>
+                            <span>Follow</span>
+                        </div>
+                        <div class="contact-arrow"><i data-lucide="chevron-right"></i></div>                          
+                    </div>
+                    
+                    <div class="contact-item" onclick="window.open('https://x.com/FalasTech','_blank');" style="cursor:pointer;">
+                        <div class="contact-icon x"><i data-lucide="twitter"></i></div>
+                        <div class="contact-content">
+                            <h4>X (Twitter)</h4>
+                            <p>@falastech</p>
+                            <span>Follow</span>
+                        </div>
+                        <div class="contact-arrow"><i data-lucide="chevron-right"></i></div>                          
+                    </div>
+
+                    <div class="contact-item" onclick="window.open('https://www.linkedin.com/company/falastech','_blank');" style="cursor:pointer;">
+                        <div class="contact-icon linkedin"><i data-lucide="linkedin"></i></div>
+                        <div class="contact-content">
+                            <h4>LinkedIn</h4>
+                            <p>in/FalasTech</p>
+                            <span>Connect</span>
+                        </div>
+                        <div class="contact-arrow"><i data-lucide="chevron-right"></i></div>
+                    </div>
+
+                    <div class="contact-item" onclick="window.open('https://github.com/FalasTech','_blank');" style="cursor:pointer;">
+                        <div class="contact-icon github"><i data-lucide="github"></i></div>
+                        <div class="contact-content">
+                            <h4>GitHub</h4>
+                            <p>@FalasTech</p>
+                            <span>View code</span>
+                        </div>
+                        <div class="contact-arrow"><i data-lucide="chevron-right"></i></div>
+                    </div>
+                </div>
+
+                <div class="quick-card">
+                    <h3>Quick Message</h3>
+                    <p>Prefer to send a direct message?</p>
+                    <button class="btn primary" onclick="location.href='mailto:info@falastech.org';">Send an Email <i data-lucide="send"></i></button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2026 FalasTech — Built with solidarity.</p>
+        </footer>
+    </div>
+    <script>lucide.createIcons();</script>
+</body>
+</html>

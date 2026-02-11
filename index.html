@@ -1,272 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="FalasTech, Palestine, open source, tech collective, digital liberation, advocacy" />
-  <meta name="description" content="FalasTech – A collective of developers, designers, and activists building open-source tools for Palestinian advocacy and justice." />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-  <link id="favicon" rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png" />
-  <title>FalasTech | Code For Liberation</title>
-
-  <!-- Primary Meta Tags -->
-  <meta name="title" content="FalasTech">
-  <meta name="description" content="FalasTech – A collective of developers, designers, and activists building open-source tools for Palestinian advocacy and justice.">
-  <meta name="keywords" content="FalasTech, Palestine, open-source, activism, developers, designers, Free Palestine, tech for justice, digital tools, digital solidarity">
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="FalasTech">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://falastech.org/">
-  <meta property="og:title" content="FalasTech | Code For Liberation">
-  <meta property="og:description" content="FalasTech – A collective of developers, designers, and activists building open-source tools for Palestinian advocacy and justice.">
-  <meta property="og:image" content="https://falastech.org/assets/preview-image.jpg">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://falastech.org/">
-  <meta name="twitter:title" content="FalasTech | Code For Liberation">
-  <meta name="twitter:description" content="FalasTech – A collective of developers, designers, and activists building open-source tools for Palestinian advocacy and justice.">
-  <meta name="twitter:image" content="https://falastech.org/assets/preview-image.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FalasTech | Digital Tools</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body oncontextmenu="return false">
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="logo">FALASTECH</a>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+            </nav>
+        </header>
 
-<!-- Header -->
-<header>
-  <a href="/" class="logo"><i class="fas fa-code"></i> <span>Falas</span>Tech</a>
-  <div id="menu" class="fas fa-bars"></div>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#stacks">Stacks</a></li>
-      <li><a href="#mission">Mission</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#timeline">Journey</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+        <main>
+            <section style="padding: 60px 0;">
+                <h1 style="font-size: 3.5rem; letter-spacing: -0.04em; line-height: 1.1; margin-bottom: 20px;">
+                    Building <span style="color: var(--color-green);">Ethical</span> <br>Digital Tools.
+                </h1>
+                <p style="color: var(--muted); font-size: 1.2rem; max-width: 600px;">
+                   FalasTech is an independent initiative building privacy-respecting web tools for public use and digital advocacy.
+                </p>
+            </section>
 
-<!-- Home -->
-<section class="home" id="home">
-  <div id="particles-js"></div>
-  <div class="content">
-    <h2>Welcome to<br/> <span>FalasTech</span></h2>
-    <p>We are <span class="typing-text"></span></p>
-    <a href="#about" class="btn"><span>About Us</span> <i class="fas fa-arrow-circle-down"></i></a>
-    <div class="socials">
-      <ul class="social-icons">
-        <li><a class="instagram" href="https://www.instagram.com/falastech" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        <li><a class="twitter" href="https://x.com/FalasTech" target="_blank"><i class="fab fa-twitter"></i></a></li>
-        <li><a class="youtube" href="https://youtube.com/@FalasTech" target="_blank"><i class="fab fa-youtube"></i></a></li>
-        <li><a class="github" href="https://github.com/FalasTech" target="_blank"><i class="fab fa-github"></i></a></li>
-        <li><a class="telegram" href="https://t.me/FalasTech" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="image">
-    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="FalasTech Logo" />
-  </div>
-</section>
+            <section id="projects" class="section">
+                <div class="section-header">
+                    <span class="section-line"></span>
+                    <h2>PROJECTS <span>/ FEATURED WORK</span></h2>
+                </div>
 
-<!-- About -->
-<section class="about" id="about">
-  <h2 class="heading"><i class="fas fa-users"></i> About <span>Us</span></h2>
-  <div class="row">
-    <div class="image">
-      <img draggable="false" class="tilt" src="./assets/images/team.png" alt="FalasTech Team" />
-    </div>
-    <div class="content">
-      <h3>We are FalasTech</h3>
-      <span class="tag">Code For Liberation</span>
-      <p>FalasTech is a grassroots collective of developers, designers, and digital activists building free and open-source tools that support Palestinian liberation, digital advocacy, and justice-centered tech projects.</p>
-      <div class="box-container">
-        <div class="box">
-          <p><span>Email : </span> info@falastech.org</p>
-          <p><span>Location : </span> Global / Remote</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="project">Projects</button>
+                    <button class="filter-btn" data-filter="tool">Tools</button>
+                </div>
 
-<!-- Stacks -->
-<section class="stacks" id="stacks">
-  <h2 class="heading"><i class="fas fa-toolbox"></i> Our <span>Stack</span></h2>
-  <div class="container">
-    <div class="row" id="stacksContainer">
-      <!-- Add tool icons dynamically via JS or copy/paste blocks -->
-    </div>
-  </div>
-</section>
+                <div class="project-grid">
+                    <div class="card project-card" data-category="tool">
+                        <div class="card-badge">TOOL</div>
+                        <img src="tool1.jpg" class="project-img" alt="Palestine Profile Maker">
+                        <h4>Palestine Profile Maker</h4>
+                        <p>A tool that helps you to add Palestinian themed borders to your profile photos.</p>
+                        <div class="project-tags"><span>HTML</span><span>JS</span></div>
+                        <div class="project-actions">
+                            <button class="btn-project primary" onclick="location.href='https://github.com/FalasTech/falastech-ppm'"><i data-lucide="github"></i> Code</button>
+                            <button class="btn-project outline" onclick="location.href='https://ppm.falastech.org'"><i data-lucide="external-link"></i> Live</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
 
-<!-- Mission -->
-<section class="mission" id="mission">
-  <h1 class="heading"><i class="fas fa-bullhorn"></i> Our <span>Mission</span></h1>
-  <p class="qoute">Technology for justice, code for freedom, design for dignity.</p>
-  <div class="box-container">
-    <div class="box">
-      <div class="image"><img src="./assets/images/missions/gaza.jpg" alt="Mission" /></div>
-      <div class="content">
-        <h3>Empowering Palestinian Voices</h3>
-        <p>We believe in using tech to amplify resistance, support self-determination, and dismantle digital oppression.</p>
-        <h4>Since 2025 | Ongoing</h4>
-      </div>
+        <footer class="footer">
+            <p>© 2026 FalasTech — Built with solidarity.</p>
+        </footer>
     </div>
-  </div>
-</section>
+    <script>
+        lucide.createIcons();
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
 
-<!-- Projects -->
-<section class="projects" id="projects">
-  <h2 class="heading"><i class="fas fa-code"></i> Featured <span>Projects</span></h2>
-  <div class="box-container">
-    <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/ppm.jpg" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>Palestine Profile Pic Maker</h3>
-        </div>
-        <div class="desc">
-          <p>Add Palestinian themed borders to your profile photos.</p>
-          <div class="btns">
-            <a href="https://ppm.falastech.org" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/FalasTech/falastech-ppm" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/cm.jpg" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>New Projects Coming Soon!!!</h3>
-        </div>
-        <div class="desc">
-          <p>New Projects Coming Sooooooon!!!!!!!</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="viewall">
-    <a href="https://github.com/falastech" class="btn" target="_blank"><span>View All</span> <i class="fas fa-arrow-right"></i></a>
-  </div>
-</section>
-
-<!-- TimeLine -->
-<section class="timeline" id="timeline">
-  <h2 class="heading"><i class="fas fa-hands-helping"></i> Our <span>Journey</span></h2>
-  <div class="timeline">
-    <div class="container right">
-      <div class="content">
-        <div class="tag"><h2>Starting</h2></div>
-        <div class="desc"><h3>Founded FalasTech</h3><p>April 25, 2025</p></div>
-      </div>
-    </div>
-    <div class="container left">
-      <div class="content">
-        <div class="tag"><h2>New Project</h2></div>
-        <div class="desc"><h3>Palestine Profile Pic Maker</h3><p>June 27, 2025</p></div>
-      </div>
-    </div>
-    <div class="container right">
-      <div class="content">
-        <div class="tag"><h2>Update - Fixed Download Quality Problem</h2></div>
-        <div class="desc"><h3>Palestine Profile Pic Maker</h3><p>August 30, 2025</p></div>
-      </div>
-    </div>
-  </div>
-  <div class="morebtn">
-    <a href="#" class="btn"><span>View All</span>
-      <i class="fas fa-arrow-right"></i>
-  </a>
-  </div>
-</section>
-
-<!-- Contact -->
-<section class="contact" id="contact">
-  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
-  <div class="container">
-    <div class="content">
-      <div class="image-box">
-        <img draggable="false" src="./assets/images/contact.png" alt="Contact" />
-      </div>
-      <form id="contact-form" action="https://formsubmit.co/info@falastech.org" method="POST">
-        <!-- Honeypot (spam trap) -->
-        <div style="display:none;"> 
-          <label>Leave this field empty:
-            <input type="text" name="_honey">
-          </label>
-        </div>
-        
-        <div class="form-group">
-          <div class="field"><input type="text" name="name" placeholder="Name" required /><i class="fas fa-user"></i></div>
-          <div class="field"><input type="email" name="email" placeholder="Email" required /><i class="fas fa-envelope"></i></div>
-          <div class="field"><input type="text" name="subject" placeholder="Subject" /><i class="fas fa-pen"></i></div>
-          <div class="message"><textarea name="message" placeholder="Message" required></textarea><i class="fas fa-comment-dots"></i></div>
-        </div>
-        <div class="button-area">
-          <button type="submit">Send <i class="fa fa-paper-plane"></i></button>
-        </div>
-        
-        <!-- Formsubmit hidden fields -->
-        <input type="hidden" name="_captcha" value="true">
-        <input type="hidden" name="_template" value="box">
-        <input type="hidden" name="_next" value="https://falastech.org/thanks.html">
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
-<section class="footer">
-  <div class="box-container">
-    <div class="box">
-      <h3>FalasTech</h3>
-      <p>We’re a tech collective for justice. Thanks for visiting our digital space. Join us in building resistance through code.</p>
-    </div>
-    <div class="box">
-      <h3>Quick Links</h3>
-      <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
-      <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
-      <a href="#stacks"><i class="fas fa-chevron-circle-right"></i> Stacks</a>
-      <a href="#mission"><i class="fas fa-chevron-circle-right"></i> Mission</a>
-      <a href="#projects"><i class="fas fa-chevron-circle-right"></i> Projects</a>
-      <a href="#timeline"><i class="fas fa-chevron-circle-right"></i> Journey</a>
-    </div>
-    <div class="box">
-      <h3>Contact Info</h3>
-      <p><i class="fas fa-envelope"></i> info@falastech.org</p>
-      <p><i class="fas fa-globe"></i> falastech.org</p>
-      <div class="share">
-        <a href="https://www.instagram.com/falastech" class="fab fa-instagram"></a>
-        <a href="https://twitter.com/falastech" class="fab fa-twitter"></a>
-        <a href="https://youtube.com/@FalasTech" class="fab fa-youtube"></a>
-        <a href="https://github.com/falastech" class="fab fa-github"></a>
-        <a href="https://t.me/falastech" class="fab fa-telegram-plane"></a>
-      </div>
-    </div>
-  </div>
-  <h1 class="credit">Made with <i class="fa fa-heart pulse"></i> by <a href="https://falastech.org">FalasTech</a></h1>
-</section>
-
-<!-- Scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
-<script src="./assets/js/particles.min.js"></script>
-<script src="./assets/js/app.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script src="./assets/js/script.js"></script>
-<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filterValue = btn.getAttribute('data-filter');
+                projectCards.forEach(card => {
+                    card.style.display = (filterValue === 'all' || card.getAttribute('data-category') === filterValue) ? 'flex' : 'none';
+                });
+            });
+        });
+    </script>
 </body>
 </html>
