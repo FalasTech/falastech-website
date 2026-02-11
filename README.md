@@ -1,34 +1,43 @@
 [![Code for Liberation](https://img.shields.io/badge/🇵🇸%20Code_for_Liberation-falastech.org-%23E60023.svg)](https://falastech.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://github.com/FalasTech/falastech-website/blob/main/LICENSE)
 
+
 # 🌐 falastech.org
 
-**FalasTech** is an open-source, tech-for-justice collective building digital tools in solidarity with **Palestinian liberation**.
+**FalasTech** is an independent initiative building privacy-respecting web tools for public use and digital advocacy.
+
+This repository contains the source code for the official FalasTech website.
 
 ---
 
 ## 🔗 Live
 
-- 🌍 **Website**: [https://falastech.org](https://falastech.org)
-- 🏷️ **Domain**: `falastech.org`
+- 🌍 **Website**: https://falastech.org
 
 ---
 
 ## 🛠 Built With
 
-- 🧱 HTML & CSS
-- 💨 Tailwind CSS
-- ⚙️ JavaScript
+- HTML & CSS  
+- Tailwind CSS  
+- JavaScript  
 
 ---
 
-## 🤝 Want to Contribute?
+## 🤝 Contributions
 
-We welcome collaborators, contributors, and co-dreamers.
+Contributions are welcome.
 
-- 🍴 Fork this repo
-- 🔧 Make your changes
-- 📬 Open a pull request
-- 🌐 Or connect with us through our [social links](https://github.com/FalasTech/.github/blob/main/social.md)
+If you would like to suggest improvements:
 
-> ✊ Together, we **code for liberation**.
+1. Fork the repository
+2. Make your changes
+3. Open a pull request  
+
+For major changes or ideas, please open an issue first to discuss.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
