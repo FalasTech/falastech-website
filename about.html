@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | FalasTech</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
     <div class="container">
@@ -110,6 +109,11 @@
             <p>© 2026 FalasTech — Built with solidarity.</p>
         </footer>
     </div>
-    <script>lucide.createIcons();</script>
+    <script defer src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            lucide.createIcons();
+        });
+    </script>
 </body>
 </html>
