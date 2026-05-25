@@ -1,8 +1,8 @@
-[![FalasTech](https://img.shields.io/badge/FalasTech-falastech.org-%23E60023.svg)](https://falastech.org)
+[![FalasTech](https://img.shields.io/badge/FalasTech-falastech.is-a.dev-%23E60023.svg)](https://falastech.is-a.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://github.com/FalasTech/falastech-website/blob/main/LICENSE)
 
 
-# 🌐 falastech.org
+# 🌐 falastech.is-a.dev
 
 **FalasTech** is an independent initiative building privacy-respecting web tools for public use and digital advocacy.
 
@@ -12,7 +12,7 @@ This repository contains the source code for the official FalasTech website.
 
 ## 🔗 Live
 
-- 🌍 **Website**: https://falastech.org
+- 🌍 **Website**: https://falastech.is-a.dev
 
 ---
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://falastech.org/sitemap.xml
+Sitemap: https://falastech.is-a.dev/sitemap.xml
